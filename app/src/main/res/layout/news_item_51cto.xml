@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/id_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="如何有效地在海外市场推广产品？"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp">
+
+        <ImageView
+            android:id="@+id/id_newsImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/images"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/id_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/id_newsImg"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentRight="true"
+            android:gravity="top"
+            android:maxLines="3"
+            android:text="3D打印机一直以来只能进行单向操作，任务一旦开始便无法反悔。不过最近一批研究生研发了一种新型打印机，让你在打印的同时，可以修改重塑之前的设计。让我们一起来看看这个神奇的设备究竟是怎样的吧。"
+            android:textColor="@color/nomalGray"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/id_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/id_content"
+            android:paddingTop="8dp"
+            android:singleLine="true"
+            android:text="13分钟前|11次阅读"
+            android:textColor="@color/nomalGray"
+            android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

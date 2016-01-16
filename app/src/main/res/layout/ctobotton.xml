@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_gravity="bottom"
+    android:background="#0D2B2222"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/id_iv_tabline"
+        android:layout_width="100dp"
+        android:layout_height="3dp"
+        android:background="@drawable/tabline9" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/id_ll_chat"
+            android:layout_width="3dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_network"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/network" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="3dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/id_develop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/develop"
+                android:textColor="#008000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="3dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/id_govern"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/govern"
+                android:textColor="#008000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="3dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/id_life"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/life"
+                android:textColor="#008000" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

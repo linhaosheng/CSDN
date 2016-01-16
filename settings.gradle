@@ -1,0 +1,3 @@
+include ':app', ':XListView'
+include ':viewPagerlibrary'
+include ':gestureimageview'

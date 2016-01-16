@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#5CACEE</color>
+    <color name="transparentblue">#445CACEE</color>
+    <color name="black">#FF000000</color>
+    <color name="nomalGray">#838B83</color>
+    <color name="coffee">#622f1b</color>
+    <color name="wangyibg">#f0f0f0</color>
+    <color name="transparentblack">#88000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
